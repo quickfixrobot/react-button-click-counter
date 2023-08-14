@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonCounter from './components/ButtonCounter';
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          React JS Beginner Project
         </a>
+        Click the button to increment counter
+        <ButtonCounter/>
       </header>
     </div>
   );
